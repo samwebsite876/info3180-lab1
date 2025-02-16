@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>My Website - About</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
 </head>
 <body>
     <h1>Samantha Samuels</h1>
+    <img src="{{ url_for('static', filename='uwi-mona-logo.jpg') }}" alt="UWI Mona Logo" />
     <p>I am a student at the University of the West Indies and is in the Faculty 
         of Science and Technology where I am currently majoring in Computer Science.
         The aspects of Technology that I am most interested in are Web Development 
-        and Data Science
+        and Data Science.
     </p>
 </body>
 </html>
